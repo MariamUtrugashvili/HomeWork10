@@ -1,0 +1,54 @@
+@media (max-width: 745px) {
+    /* header */
+    header {
+        margin-inline: 24px;
+    }
+
+    .secondSectiontext {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    .thirdSection {
+        margin-inline: 24px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .thirdDiv {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 32px 24px;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        margin-inline: 20px;
+    }
+    .buttonText {
+        display: none;
+    }
+
+    .headerNav{
+        display: none;
+    }
+    .app-header-menu-icon {
+        display: block;
+    }
+}
