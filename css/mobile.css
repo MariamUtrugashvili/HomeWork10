@@ -1,0 +1,28 @@
+@media (max-width: 380px) {
+    
+    .FirstSection {
+        padding-inline: 24px;
+    }
+
+    .FirstSectionTXT {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .secondSectionIMG {
+        border-radius: 32px;
+    }
+ 
+    .paragraph {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    footer {
+        align-items: center;
+    }
+}
